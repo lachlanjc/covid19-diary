@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2FSpaceGrotesk-Regular.woff?v=1589748904244')
+      format('woff'),
+    url('https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2FSpaceGrotesk-Regular.woff2?v=1589748904105')
+      format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2FSpaceGrotesk-Bold.woff?v=1589748904028')
+      format('woff'),
+    url('https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2FSpaceGrotesk-Bold.woff2?v=1589748904300')
+      format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
