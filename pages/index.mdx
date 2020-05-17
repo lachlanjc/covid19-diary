@@ -1,4 +1,4 @@
-import { Box, Card, Heading, Image, BaseStyles, Container } from 'theme-ui'
+import { Box, Card, Grid, Heading, Image, BaseStyles, Container } from 'theme-ui'
 import Writing from '../components/writing'
 import Stat from '../components/stat'
 import Song from 'react-song-embed'
@@ -72,9 +72,12 @@ At midnight, one of my favorite bands, Oh Wonder, released “Lonely Star,” th
 
 In its quiet pondering, its isolated echo, it feels like an anthem for living through COVID. “I’m a lonely star / Is there anybody out there?” they sing in the chorus, over & over again. “Words are there but they don’t come out / Not my best at singing loud.” I need to keep listening to this.
 
-“I guess I’ll be a somebody that nobody knows / Guess I’ll never find the one that I can call home.”
- 
+<Grid gap={[3, 4]} columns={[null,'auto 1fr']} sx={{ alignItems: 'center' }}>
+<Card variant="sunken" sx={{ bg: 'accent', color: 'white', display: 'inline-block', borderRadius: 'circle' }}>
 <Stat value={32} unit="" label="listens so far" />
+</Card>
+<p>“I guess I’ll be a somebody that nobody knows / Guess I’ll never find the one that I can call home.”</p>
+</Grid>
 
 ## 2020-04-16
 

@@ -24,7 +24,7 @@ const Stat = ({
   value,
   label,
   unit = '$',
-  color = 'text',
+  color = 'inherit',
   of,
   reversed = false,
   lg = false,
@@ -79,7 +79,6 @@ const Stat = ({
           as="sup"
           sx={{
             fontSize: lg ? [2, 3] : [1, 2],
-            color: 'muted',
             ml: [null, 1],
             pt: [null, 1],
             '::before': {
@@ -103,6 +102,7 @@ const Stat = ({
         as="span"
         variant="caption"
         sx={{
+          color: 'inherit',
           fontSize: [0, 1],
           textTransform: 'uppercase'
         }}
