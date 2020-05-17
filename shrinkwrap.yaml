@@ -6,6 +6,7 @@ dependencies:
   next: 9.4.1
   react: 16.13.1
   react-dom: 16.13.1
+  react-song-embed: 1.0.0
   theme-ui: 0.3.1
 packages:
   /@ampproject/toolbox-core/2.3.0:
@@ -5419,6 +5420,14 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-n8GXxo3DwM2KtFEL69DAVhGc4A1THn2qjmfvSo3nze0NLCoPbywazeJPqdp0RdSGLmyhQzeyA+XPXOobbYlkzg==
+  /react-song-embed/1.0.0:
+    dev: false
+    peerDependencies:
+      prop-types: ^15.5.4
+      react: ^15.0.0 || ^16.0.0
+      react-dom: ^15.0.0 || ^16.0.0
+    resolution:
+      integrity: sha512-EOJBeBrOmYj83SMaSBWgXikH27pVIX9msuR1skl7rtJflsir3XkXDKMAV8QyPvqfilIYSoSBnaKtpzna0xHtgg==
   /react/16.13.1:
     dependencies:
       loose-envify: 1.4.0
@@ -6738,4 +6747,5 @@ specifiers:
   next: ^9.4.0
   react: ^16.13.1
   react-dom: ^16.13.1
+  react-song-embed: ^1.0.0
   theme-ui: ^0.3.1

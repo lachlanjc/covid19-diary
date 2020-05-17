@@ -1,10 +1,10 @@
 import { Box, Card, Heading, Image, BaseStyles, Container } from 'theme-ui'
 import Writing from '../components/writing'
+import Song from 'react-song-embed'
 
 <Box as="header" sx={{
   pt: [3,4,5],
   pb: [5,6,7],
-  mb: [4,5],
   minHeight: '48rem',
   maxHeight: '96vh',
   backgroundImage: 'url(https://d1fmxjrxw87eps.cloudfront.net/2020-05-17T17:01:08-04:00.jpeg)',
@@ -25,7 +25,13 @@ Living back home has been a weird experience. I’m incredibly privileged in whe
 
 But it’s not like being home is usually. We ostensibly had spring break last week, but I worked around the clock & felt really stressed the whole time. I started a new job (remotely). My family is cleaning our house systematically & very thoroughly, from 6 hours in the kitchen pantry to the storage closet in the basement. We’re thinking about gardening—the grocery supply chain is pretty resilient, but what if this pandemic isn’t over by fall? What if it only continues to worsen, & critical infrastructure goes down? What if there’s no water, no power, no internet, or no gasoline? It probably won’t happen, but it also no longer feels out of the question.
 
-The frightening part is, we’re very, very far from the bad part. The U.S.’s outbreak was 10 days behind Italy’s last Wednesday, but as of today it’s [5 days behind Italy](https://predictcovid.com) (link is to a website I made). This week is going to be excruitiating compared to last, & next week will be far worse. We’re weeks & weeks, at the earliest, from the growth rate of cases in the U.S. not continuing exponentially. We’re not living in a world of bodies on the streets, & I sure hope we don’t get there, but there’s real potential for a scenario where a lot of people don’t make it through this. It’s overwhelming. Living right now is, no way around it, really stressful. Wealth will protect some people for now, but if doctors can’t get masks, we’re rapidly heading somewhere very dark. Hearing elected politicians in this country [treat entire generations as expendable](https://twitter.com/feliciasonmez/status/1242244600137494529?s=20) is terrifying, & we’re only at week one.
+</Writing>
+
+<Box as="iframe" variant="styles.embed" src="https://predictcovid.com" />
+
+<Writing>
+
+The frightening part is, we’re very, very far from the bad part. I made this website a few days ago, visualizing countries in relation to one annother. The U.S.’s outbreak was 10 days behind Italy’s last Wednesday, but as of today it’s 5 days behind Italy. This week is going to be excruitiating compared to last, & next week will be far worse. We’re weeks & weeks, at the earliest, from the growth rate of cases in the U.S. not continuing exponentially. We’re not living in a world of bodies on the streets, & I sure hope we don’t get there, but there’s real potential for a scenario where a lot of people don’t make it through this. It’s overwhelming. Living right now is, no way around it, really stressful. Wealth will protect some people for now, but if doctors can’t get masks, we’re rapidly heading somewhere very dark. Hearing elected politicians in this country [treat entire generations as expendable](https://twitter.com/feliciasonmez/status/1242244600137494529?s=20) is terrifying, & we’re only at week one.
 
 I’ve leave you with an excerpt from a great piece the blogger Jason Kottke wrote called [“Some People”](https://kottke.org/20/03/some-people) this week:
 
@@ -47,15 +53,19 @@ We’re living here on this planet now because a direct string of thousands of o
 
 ## 2020-03-25
 
-Made a new website today.
+It feels like in a world drowning in media & social media & so much news, I find it surprisingly difficult to find easy-to-understand information about what’s going on.
+
+Launched another new website today. It’s a live visualization of the wide gap in access to COVID testing across the country.
 
 </Writing>
 
-<Box as="iframe" variant="styles.iframe" src="https://testing.predictcovid.com" />
+<Box as="iframe" variant="styles.embed" src="https://testing.predictcovid.com" />
 
 <Writing>
 
 ## 2020-04-03
+
+<Song url="https://song.link/us/i/1504658154" />
 
 At midnight, one of my favorite bands, Oh Wonder, released “Lonely Star,” the first song in their “Home Tapes” series for COVID. It opens with a vocal sample:
 
@@ -105,6 +115,8 @@ Especially in New York City, the AIDS epidemic is a natural comparison to draw t
 > When a fellow artist expressed her anxiety that her photographs were not contributing to the AIDS resistance, Wojnarowicz told her: “These are so beautiful, and that’s what we’re fighting for. We’re being angry and complaining because we have to, but where we want to go is back to beauty. If you let go of that, we don’t have anywhere to go.”
 
 ## 2020-05-17
+
+<Song url="https://song.link/us/i/1513162749" />
 
 I’m so bored
 
