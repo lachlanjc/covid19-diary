@@ -1,22 +1,23 @@
-import { Box, Heading, Image, BaseStyles, Container } from 'theme-ui'
+import { Box, Card, Heading, Image, BaseStyles, Container } from 'theme-ui'
 import Writing from '../components/writing'
 
 <Box as="header" sx={{
-  pt: [3,4],
+  pt: [3,4,5],
   pb: [5,6,7],
+  mb: [4,5],
+  minHeight: '48rem',
+  maxHeight: '96vh',
   backgroundImage: 'url(https://d1fmxjrxw87eps.cloudfront.net/2020-05-17T17:01:08-04:00.jpeg)',
   backgroundPosition: 'center',
   backgroundSize: 'cover'
 }}>
-  <Container>
-    <Heading variant="title" as="h1">COVID-19 Diary</Heading>
-    <Text variant="subtilte">By Lachlan Campbell</Text>
+  <Container sx={{ textShadow: 'text', color: 'white' }}>
+    <Heading variant="title" as="h1" sx={{ fontSize: [5,6,7] }}>COVID-19 Diary</Heading>
+    <Text variant="subtitle" sx={{ mt: 2, fontSize: [3,4] }}>By Lachlan Campbell</Text>
   </Container>
 </Box>
 
 <Writing>
-
-# COVID-19 Diary
 
 ## 2020-03-24
 
@@ -28,17 +29,31 @@ The frightening part is, we’re very, very far from the bad part. The U.S.’s 
 
 I’ve leave you with an excerpt from a great piece the blogger Jason Kottke wrote called [“Some People”](https://kottke.org/20/03/some-people) this week:
 
-> Some people can’t sleep.
-> 
-> Some people are watching free opera online.
-> 
-> Some people have been quarantined for weeks.
-> 
-> Some people can’t work remotely.
-> 
-> Some people have contracted COVID-19 and don’t know it yet.
+<Card variant="sunken" sx={{ py: [3, 3], my: [3, 4] }}>
+
+Some people can’t sleep.
+
+Some people are watching free opera online.
+
+Some people have been quarantined for weeks.
+
+Some people can’t work remotely.
+
+Some people have contracted COVID-19 and don’t know it yet.
+
+</Card>
 
 We’re living here on this planet now because a direct string of thousands of our ancestors made it through whatever incredible hardships they faced & were able to acquire enough security to raise a kid, who did the same, until eventually we showed up. The world is more uncertain than ever, & this pandemic is a new challenge humanity has never faced something exactly like. But there’s some comfort to be had in knowing thousands of people right before us figured out how to take their situation one day at a time until some kind of success. We can figure out this challenge & we’ll get there too. Probably.
+
+## 2020-03-25
+
+Made a new website today.
+
+</Writing>
+
+<Box as="iframe" variant="styles.iframe" src="https://testing.predictcovid.com" />
+
+<Writing>
 
 ## 2020-04-03
 
