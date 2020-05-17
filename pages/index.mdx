@@ -1,5 +1,6 @@
 import { Box, Card, Heading, Image, BaseStyles, Container } from 'theme-ui'
 import Writing from '../components/writing'
+import Stat from '../components/stat'
 import Song from 'react-song-embed'
 
 <Box as="header" sx={{
@@ -71,7 +72,9 @@ At midnight, one of my favorite bands, Oh Wonder, released “Lonely Star,” th
 
 In its quiet pondering, its isolated echo, it feels like an anthem for living through COVID. “I’m a lonely star / Is there anybody out there?” they sing in the chorus, over & over again. “Words are there but they don’t come out / Not my best at singing loud.” I need to keep listening to this.
 
- “I guess I’ll be a somebody that nobody knows / Guess I’ll never find the one that I can call home.”
+“I guess I’ll be a somebody that nobody knows / Guess I’ll never find the one that I can call home.”
+ 
+<Stat value={32} unit="" label="listens so far" />
 
 ## 2020-04-16
 
@@ -95,12 +98,9 @@ I think the moment calls—to the privileged among us who are safe—us to get o
 
 ## 2020-04-23
 
-**“We were never promised tomorrow. We’re just expecting it,”** Scott Fried started this week with this tidbit, & I can’t get it out of my brain. One thing he said that particularly stood out: The quality of your life, & the quality of the life you seek, does not depend on your circumstances. I feel so lucky to be in a safe home with a loving family
+**“We were never promised tomorrow. We’re just expecting it,”** Scott Fried started this week with this tidbit, & I can’t get it out of my brain. One thing he said that particularly stood out: The quality of your life, & the quality of the life you seek, does not depend on your circumstances.
 
-- Who I am in this moment is worth loving.
-- The quality of your life, & the quality of the life you seek, does not depend on your circumstances.
-- Being enough is being without adjectives. I am a person.
-- What’s it gonna take for you to believe you’re enough? (Because you are.)
+I’ve found myself unexpectedly happy during this time. I miss my friends, & not being able to visit my boyfriend has been disappointing, but just turning inwards, this has been one of the most productive periods of my life—as well as least stressful, and I don’t think those two have ever gone together for me.
 
 ## 2020-05-05
 
@@ -114,13 +114,13 @@ I’ve been going on a walk almost every night, after the sun sets. I walk about
 
 Sometimes I walk in the daylight, though. I’ve been collecting photos of trees in bloom. It’s nice, and we could all use something nice.
 
-### Bloom
+<Heading variant="headline" as="h2" color="rgb(255, 0, 170)" sx={{ transform: 'none !important', textAlign: 'center' }}>~ Bloom ~</Heading>
 
 <Song url="https://song.link/us/i/1396292353" />
 
 </Writing>
 
-<Container sx={{ p: { display: 'grid', gridTemplateColumns: [null, 'repeat(2, 1fr)'], gridGap: [3, 4] } }}>
+<Container sx={{ p: { display: 'grid', gridTemplateColumns: [null, 'repeat(2, 1fr)'], gridGap: [3, 4] }, img: { borderRadius: 'extra' } }}>
 
 ![Tree in bloom](https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2Ff0365aa1-609d-4d66-8802-49d5f5a48bb4.image.jpeg?v=1589751552555)
 ![Staring up](https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2F6a06b89f-638b-4872-afa6-d7e6c9842c5b.image.jpeg?v=1589751703588)
