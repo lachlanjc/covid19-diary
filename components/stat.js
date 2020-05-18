@@ -1,24 +1,5 @@
-import { Box, Donut, Flex, Text } from 'theme-ui'
+import { Box, Flex, Text } from 'theme-ui'
 import { isEmpty } from 'lodash'
-
-export const StatGrid = ({ quad = false, ...props }) => (
-  <Box
-    {...props}
-    sx={{
-      display: 'grid',
-      gridTemplateColumns: ['repeat(2, 1fr)', `repeat(${quad ? 4 : 2}, 1fr)`],
-      gridGap: 3,
-      alignItems: 'flex-end',
-      textAlign: 'left',
-      mt: [3, 4],
-      mb: [3, 4],
-      div: {
-        gridColumn: quad ? 'span 2' : null
-      },
-      ...props.sx
-    }}
-  />
-)
 
 const Stat = ({
   value,
@@ -86,14 +67,6 @@ const Stat = ({
             }
           }}
           children={of}
-        />
-      )}
-      {unit === '%' && (
-        <Donut
-          value={value / 100}
-          size={lg ? 48 : 32}
-          strokeWidth={lg ? 3 : 2}
-          sx={{ mr: 2, width: lg ? [32, 48] : 32, height: lg ? [32, 48] : 32 }}
         />
       )}
     </Flex>

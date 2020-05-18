@@ -6,7 +6,7 @@ export default ({
   title = 'COVID-19 Diary',
   description = 'A diary written by @lachlanjc throughout COVID-19.',
   image = 'https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2Fpublic-jpeg.jpeg?v=1589784666936',
-  url = 'https://covid19-diary.glitch.me/'
+  url = 'https://covid19-diary.now.sh/'
 }) => (
   <Head>
     <title>{title} – {name}</title>
