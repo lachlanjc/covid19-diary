@@ -10,7 +10,6 @@
     "start": "next"
   },
   "dependencies": {
-    "@hackclub/meta": "^0.1.1",
     "@hackclub/theme": "^0.1.1",
     "@mdx-js/loader": "^1.6.1",
     "@next/mdx": "^9.4.0",
