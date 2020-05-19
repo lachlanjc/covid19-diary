@@ -1,4 +1,4 @@
-import { Box, Card, Grid, Heading, Image, BaseStyles, Container } from 'theme-ui'
+import { Box, Card, Grid, Heading, Link, Image, BaseStyles, Container } from 'theme-ui'
 import Writing from '../components/writing'
 import Stat from '../components/stat'
 import Song from 'react-song-embed'
@@ -14,7 +14,7 @@ import Song from 'react-song-embed'
 }}>
   <Container sx={{ textShadow: 'text', color: 'white' }}>
     <Heading variant="title" as="h1" sx={{ fontSize: [5,6,7] }}>COVID-19 Diary</Heading>
-    <Text variant="subtitle" sx={{ mt: 2, fontSize: [3,4] }}>By Lachlan Campbell</Text>
+    <Text variant="subtitle" sx={{ mt: 2, fontSize: [3,4] }}>By <Link color="lilac" href="https://lachlanjc.com">@lachlanjc</Link></Text>
   </Container>
 </Box>
 
@@ -74,7 +74,7 @@ In its quiet pondering, its isolated echo, it feels like an anthem for living th
 
 <Grid gap={[3, 4]} columns={[null,'auto 1fr']} sx={{ alignItems: 'center' }}>
 <Card variant="sunken" sx={{ bg: 'accent', color: 'white', display: 'inline-block', borderRadius: 'circle' }}>
-<Stat value={32} unit="" label="listens so far" />
+<Stat value={41} unit="" label="listens so far" />
 </Card>
 <p>“I guess I’ll be a somebody that nobody knows / Guess I’ll never find the one that I can call home.”</p>
 </Grid>
@@ -151,7 +151,7 @@ Sometimes I walk in the daylight, though. I’ve been collecting photos of trees
 
 <Heading variant="headline" as="h2" sx={{ color: 'pink', transform: 'none !important', textAlign: 'center' }}>~ Bloom ~</Heading>
 
-<Song url="https://song.link/us/i/1396292353" />
+<Song url="https://song.link/us/i/1396292371" />
 
 </Writing>
 
