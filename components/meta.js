@@ -5,11 +5,13 @@ export default ({
   name = '@lachlanjc',
   title = 'COVID-19 Diary',
   description = 'A diary written by @lachlanjc throughout COVID-19.',
-  image = 'https://cdn.glitch.com/cedb9345-51b4-4b6b-8e74-c4f83c7a6085%2Fpublic-jpeg.jpeg?v=1589784666936',
+  image = 'https://covid19-diary.now.sh/public-jpeg.jpeg',
   url = 'https://covid19-diary.now.sh/'
 }) => (
   <Head>
-    <title>{title} – {name}</title>
+    <title>
+      {title} – {name}
+    </title>
     <meta property="og:title" content={title} />
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
